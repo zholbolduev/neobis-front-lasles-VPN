@@ -314,6 +314,10 @@ body {
             flex-shrink: 0;
             margin-right: 3px;
           }
+
+          > span {
+            position: absolute;
+          }
         }
       }
     }
@@ -380,6 +384,7 @@ body {
 
         > ul {
           list-style-type: none;
+
           > li {
             color: #4f5665;
             font-family: Rubik;
@@ -579,7 +584,7 @@ body {
 
       &__pagin {
         margin-left: 150px;
-        margin-right: 150px;
+        margin-right: 100px;
         display: flex;
         justify-content: space-between;
 
@@ -594,7 +599,7 @@ body {
 
       &__widget {
         margin-top: 80px;
-        width: 1140px;
+        width: 980px;
         height: 233px;
         flex-shrink: 0;
         border-radius: 10px;
